@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spotify_africa_assessment/colors.dart';
-import 'package:flutter_spotify_africa_assessment/providers/category_loader.dart';
+import 'package:flutter_spotify_africa_assessment/models/category_model.dart';
 import 'package:flutter_spotify_africa_assessment/routes.dart';
 import 'package:provider/provider.dart';
 
-import '../../../../../providers/playlist_loader.dart';
-import '../components/app_bar_flexible_space_container.dart';
-import '../components/category_playlist_grid_tile.dart';
-import '../components/category_playlist_header.dart';
-import '../components/playlist_grid.dart';
+import '../../../../providers/category_loader.dart';
 
 // TODO: fetch and populate playlist info and allow for click-through to detail
 // Feel free to change this to a stateful widget if necessary
@@ -29,12 +25,10 @@ class _SpotifyCategoryState extends State<SpotifyCategory> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    context.read<PlayListLoader>().getPlayListData(widget.categoryId);
   }
 
   @override
   Widget build(BuildContext context) {
-    //TODO: Add Lazy Loading to improve user experience
     return Consumer<CategoryLoader>(
       builder: (context, value, child) => Scaffold(
         appBar: AppBar(
@@ -45,17 +39,28 @@ class _SpotifyCategoryState extends State<SpotifyCategory> {
               onPressed: () => Navigator.of(context).pushNamed(AppRoutes.about),
             ),
           ],
-          flexibleSpace: const AppBarFlexibleSpaceContainer(),
-        ),
-        body: ListView(
-          physics: const BouncingScrollPhysics(parent: ClampingScrollPhysics()),
-          children: [
-            CategoryPlaylistHeader(
-              iconUrl: value.category!.iconUrl,
-              categoryName: value.category?.name,
+          flexibleSpace: Container(
+            decoration: const BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: <Color>[
+                  AppColors.blue,
+                  AppColors.cyan,
+                  AppColors.green,
+                ],
+              ),
             ),
-            const PlaylistGrid()
-          ],
+          ),
+        ),
+        body: Container(
+          padding: const EdgeInsets.all(16),
+          child: Center(
+            child: Text(
+              '''Populate with playlist info for category '${widget.categoryId}', click on playlist to view playlist detail''',
+              textAlign: TextAlign.center,
+            ),
+          ),
         ),
       ),
     );

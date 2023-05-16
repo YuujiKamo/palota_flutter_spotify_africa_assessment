@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spotify_africa_assessment/features/landing/presentation/animations/rive_assets.dart';
-import 'package:flutter_spotify_africa_assessment/misc/helpers.dart';
+import 'package:flutter_spotify_africa_assessment/providers/category_loader.dart';
 import 'package:flutter_spotify_africa_assessment/routes.dart';
 import 'package:provider/provider.dart';
 import 'package:rive/rive.dart';

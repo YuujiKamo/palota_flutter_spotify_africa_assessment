@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_spotify_africa_assessment/routes.dart';
 import 'package:provider/provider.dart';
 
-import 'misc/helpers.dart';
+import 'providers/category_loader.dart';
+import 'providers/playlist_loader.dart';
 
 void main() {
   runApp(const PalotaAssessmentApp());
@@ -16,7 +17,8 @@ class PalotaAssessmentApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (context) => CategoryLoader())
+        ChangeNotifierProvider(create: (context) => CategoryLoader()),
+        ChangeNotifierProvider(create: (context) => PlayListLoader()),
       ],
       child: MaterialApp(
         title: 'Palota Spotify Africa Assessment',
