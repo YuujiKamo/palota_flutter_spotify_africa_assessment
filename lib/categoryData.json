@@ -1,0 +1,13 @@
+{
+  "href": "https://api.spotify.com/v1/browse/categories/0JQ5DAqbMKFNQ0fGp4byGU",
+  "icons": [
+    {
+      "height": null,
+      "url": " https://t.scdn.co/images/b505b01bbe0e490cbe43b07f16212892.jpeg",
+      "width": null
+    }
+  ],
+  "name": "Afro",
+  "type": "spotifyCategory",
+  "id": "afro"
+}

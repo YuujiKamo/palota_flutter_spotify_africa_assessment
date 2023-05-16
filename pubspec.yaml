@@ -31,7 +31,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+  http: ^0.13.6
   package_info_plus: ^4.0.0
+  provider: ^6.0.5
   rive: ^0.10.4
   url_launcher: ^6.1.11
 
