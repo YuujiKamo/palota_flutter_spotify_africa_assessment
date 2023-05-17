@@ -36,26 +36,47 @@ class _SpotifyCategoryState extends State<SpotifyCategory> {
   Widget build(BuildContext context) {
     //TODO: Add Lazy Loading to improve user experience
     return Consumer<CategoryLoader>(
-      builder: (context, value, child) => Scaffold(
-        appBar: AppBar(
-          title: Text(value.category?.name ?? "{CatergoryName}"),
-          actions: [
-            IconButton(
-              icon: const Icon(Icons.info_outline),
-              onPressed: () => Navigator.of(context).pushNamed(AppRoutes.about),
-            ),
-          ],
-          flexibleSpace: const AppBarFlexibleSpaceContainer(),
-        ),
-        body: ListView(
-          physics: const BouncingScrollPhysics(parent: ClampingScrollPhysics()),
-          children: [
-            CategoryPlaylistHeader(
-              iconUrl: value.category!.iconUrl,
-              categoryName: value.category?.name,
-            ),
-            const PlaylistGrid()
-          ],
+      builder: (context, value, child) => RefreshIndicator(
+        displacement: MediaQuery.of(context).size.width * 0.3,
+        onRefresh: () async {
+          await context
+              .read<PlayListLoader>()
+              .getPlayListData(widget.categoryId);
+        },
+        child: Scaffold(
+          appBar: !value.isError
+              ? AppBar(
+                  title: Text(value.category?.name ?? "{CategoryName}"),
+                  actions: [
+                    IconButton(
+                      icon: const Icon(Icons.info_outline),
+                      onPressed: () =>
+                          Navigator.of(context).pushNamed(AppRoutes.about),
+                    ),
+                  ],
+                  flexibleSpace: const AppBarFlexibleSpaceContainer(),
+                )
+              : null,
+          body: value.isError
+              ? const Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: Center(
+                      child: Text(
+                    "Ooops, an error occured. pull down to refresh or connect to the internet",
+                    textAlign: TextAlign.center,
+                  )),
+                )
+              : ListView(
+                  physics: const BouncingScrollPhysics(
+                      parent: ClampingScrollPhysics()),
+                  children: [
+                    CategoryPlaylistHeader(
+                      iconUrl: value.category!.iconUrl,
+                      categoryName: value.category?.name,
+                    ),
+                    const PlaylistGrid()
+                  ],
+                ),
         ),
       ),
     );

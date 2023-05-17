@@ -8,9 +8,11 @@ class PlayListLoader with ChangeNotifier {
   //Fields
   List<Playlist> playlists = [];
   bool _isLoading = false;
+  bool _isError = false;
 
   //Getters
   bool get isLoading => _isLoading;
+  bool get isError => _isError;
 
   //Functions
   void toggleLoader() {
@@ -31,7 +33,6 @@ class PlayListLoader with ChangeNotifier {
       },
     ).timeout(const Duration(seconds: 5)).then(
       (response) {
-        print("then: getPlayListData");
         if (response.statusCode == 200) {
           //Parse JSON Data
           final mapPlayListData = jsonDecode(response.body);
@@ -54,12 +55,12 @@ class PlayListLoader with ChangeNotifier {
               ),
             );
           }
-
-          //Instantiate Category Object
         }
+        _isError = false;
       },
     ).onError(
       (error, stackTrace) {
+        _isError = true;
         print("error: getPlayListData");
         print(error.toString());
         print(stackTrace);

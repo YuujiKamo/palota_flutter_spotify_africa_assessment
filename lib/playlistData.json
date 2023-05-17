@@ -1,0 +1,732 @@
+{
+  "playlists": {
+    "href": "https://palota-jobs-africa-spotify-fa.azurewebsites.net:80/api/browse/categories/afro/playlists?limit=20&offset=0",
+    "items": [
+      {
+        "collaborative": false,
+        "description": "Tracks popping off in the Afro scene. Cover: Victor Thompson",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX6036iaZ2MYP"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX6036iaZ2MYP",
+        "id": "37i9dQZF1DX6036iaZ2MYP",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003740df3771d19c09eebf4ed78",
+            "width": null
+          }
+        ],
+        "name": "Peppeh",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4Mzg3ODIyNiwwMDAwMDAwMDYxMjE4OTMyODdjMzllMGE0NmM3ODVjNzQ0YWM4MjEx",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX6036iaZ2MYP/tracks",
+          "total": 41
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX6036iaZ2MYP"
+      },
+      {
+        "collaborative": false,
+        "description": "The African & West Indian diaspora united. Cover: Kranium",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXdeMORbC1XNa"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdeMORbC1XNa",
+        "id": "37i9dQZF1DXdeMORbC1XNa",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000039a25748cbbef9efb2c8b8339",
+            "width": null
+          }
+        ],
+        "name": "Afro Bashment",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4NDExMDk5OSwwMDAwMDAwMDNhYTY0NmI5YzcyYTMyNDljNDViNjE3YjEzODI1MGJh",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXdeMORbC1XNa/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXdeMORbC1XNa"
+      },
+      {
+        "collaborative": false,
+        "description": "Some of the most influential and innovative voices in afrobeats, afropop, amapiano, hiplife and everything in between, from earliest acts to newest stars. \n\nCover: <a href=\"https://open.spotify.com/artist/3ukrG1BmfEiuo0KDj8YTTS?si=HD4YDUbmTjiY8H8U2mz-YA\"> Teni </a> ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWSxnGhnykt9Y"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWSxnGhnykt9Y",
+        "id": "37i9dQZF1DWSxnGhnykt9Y",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003d9504380cbb59415458c9b0f",
+            "width": null
+          }
+        ],
+        "name": "EQUAL Afro",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4Mzg3NDc3MywwMDAwMDAwMDJlNTUwYjU1ZTJkMmNmZDU4ODM0ZWY5ZGM3YTllNjAw",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWSxnGhnykt9Y/tracks",
+          "total": 65
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWSxnGhnykt9Y"
+      },
+      {
+        "collaborative": false,
+        "description": "Get your fill of vibes straight out of Tanzania. Cover: Rayvanny",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX3EbcelyrZPd"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX3EbcelyrZPd",
+        "id": "37i9dQZF1DX3EbcelyrZPd",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003687ab95aa7d39d17e7b96a39",
+            "width": null
+          }
+        ],
+        "name": "Bongo Flava",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4MzgzODc0MCwwMDAwMDAwMGFkNmVmMDU1NjdjZWFlZTZkMjY0MzcyNTlmMjk5OTQ4",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX3EbcelyrZPd/tracks",
+          "total": 70
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX3EbcelyrZPd"
+      },
+      {
+        "collaborative": false,
+        "description": "The essential Afrobeats tracks of the 2000s",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX0y9AJEwjBeo"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0y9AJEwjBeo",
+        "id": "37i9dQZF1DX0y9AJEwjBeo",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000035e6eff37965c850eea711f21",
+            "width": null
+          }
+        ],
+        "name": "I love my 2000s Afrobeats",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY2NDQ1NjY2NywwMDAwMDAwMDA4MjVjNGZlOTRhYzBhODYwYjdiMDAwMzg0OTMzYzY3",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0y9AJEwjBeo/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX0y9AJEwjBeo"
+      },
+      {
+        "collaborative": false,
+        "description": "From Joburg and Lagos... to Chicago. Get lost in the electro and bass vibes.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX6eyIKoZCdug"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX6eyIKoZCdug",
+        "id": "37i9dQZF1DX6eyIKoZCdug",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000031c9e76d841616ca1d29c5d99",
+            "width": null
+          }
+        ],
+        "name": "Afrotronica",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY3NjM2MjA1NywwMDAwMDAwMGJlZjllMmJjYWQ1YTg2NGU5MmVjNzBkMzVmYjVmZTI2",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX6eyIKoZCdug/tracks",
+          "total": 60
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX6eyIKoZCdug"
+      },
+      {
+        "collaborative": false,
+        "description": "Catching flights and going global. Cover:  <a href=\"https://open.spotify.com/artist/12kjvw4e3gLp6qVHO65n7W?si=87J0sUfiRqiEOERNmcnYjg\"> Blaqbonez</a> and  <a href=\"https://open.spotify.com/artist/3ipn9JLAPI5GUEo4y4jcoi?si=luXR24obTHi8oD9GeUT5SA\"> Ludacris</a>  ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DXcd9T7p9UGiW"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcd9T7p9UGiW",
+        "id": "37i9dQZF1DXcd9T7p9UGiW",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000039f9878b8e6b1692da8d59176",
+            "width": null
+          }
+        ],
+        "name": "Gone Abroad ",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4Mzg0NjAwMCwwMDAwMDAwMDMxOGViMmM1Y2M4MGE2ODNlNjI5ODQyMjFmNmM0NTZm",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DXcd9T7p9UGiW/tracks",
+          "total": 85
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DXcd9T7p9UGiW"
+      },
+      {
+        "collaborative": false,
+        "description": "The most exciting new artists on the rise from the African continent & diaspora. Cover: <a href=\"https://open.spotify.com/artist/3SozjO3Lat463tQICI9LcE?si=apOHmSg9SXuME1XM97lMPg\">Tyla</a>",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWYc8Z858eGwP"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWYc8Z858eGwP",
+        "id": "37i9dQZF1DWYc8Z858eGwP",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003abebd0ab46776810981415d7",
+            "width": null
+          }
+        ],
+        "name": "RADAR Africa",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4Mzg0NjAwMCwwMDAwMDAwMDFmOTNlZjE4YjMyZjQxZjQ3OTdhYzE2MzBkODAzMWZm",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWYc8Z858eGwP/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWYc8Z858eGwP"
+      },
+      {
+        "collaborative": false,
+        "description": "Smooth soul-inspired tracks ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWY3rhsGpsfCB"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWY3rhsGpsfCB",
+        "id": "37i9dQZF1DWY3rhsGpsfCB",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003e46f19e63dcb9f43ca7d2149",
+            "width": null
+          }
+        ],
+        "name": "Cocoa Butter ",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4Mzg0NjAwMCwwMDAwMDAwMDRmZDM2ZGQ2NDRlZmFlY2Q4OGNiMWM2ZTM1YjI0YmY0",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWY3rhsGpsfCB/tracks",
+          "total": 80
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWY3rhsGpsfCB"
+      },
+      {
+        "collaborative": false,
+        "description": "The iconic songs celebrating love across the African continent from the 2000's to date",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWZEBR5Lu37rb"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWZEBR5Lu37rb",
+        "id": "37i9dQZF1DWZEBR5Lu37rb",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f0000000397fb5989d2943653233c1c42",
+            "width": null
+          }
+        ],
+        "name": "100 Best African Love Songs ",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY3OTA1NTUyMiwwMDAwMDAwMGFhNDNmYzdhZDZjZmE1OTNiZmViNGYzMDc1OTYxMDU2",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWZEBR5Lu37rb/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWZEBR5Lu37rb"
+      },
+      {
+        "collaborative": false,
+        "description": "A collection R&B and Afropop cuts from West Africa’s finest artists. Cover: Balloranking",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX0SlHbqMm3vJ"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0SlHbqMm3vJ",
+        "id": "37i9dQZF1DX0SlHbqMm3vJ",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000034e96d51a0565490156341b7b",
+            "width": null
+          }
+        ],
+        "name": "Ginger Me",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4Mzg0NjAwMCwwMDAwMDAwMDA0ZWJlZDBkYTFlMjcxOTA0Y2ZjMGE1ZjIxNDY0Mzk2",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX0SlHbqMm3vJ/tracks",
+          "total": 80
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX0SlHbqMm3vJ"
+      },
+      {
+        "collaborative": false,
+        "description": "Afro sounds crossing borders.  Cover: Ayra Starr & Tyla",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWT6SJaitNDax"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWT6SJaitNDax",
+        "id": "37i9dQZF1DWT6SJaitNDax",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003a4ed053e36b87ec6c6000a11",
+            "width": null
+          }
+        ],
+        "name": "We Everywhere",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4NDEwNzcwNywwMDAwMDAwMDc0OGJiMjllNTI5ZTBhNjYzYTBlM2U5NTQ5YjQ3ZDI3",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWT6SJaitNDax/tracks",
+          "total": 100
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWT6SJaitNDax"
+      },
+      {
+        "collaborative": false,
+        "description": "The hottest Afropop records on the planet. Cover:  <a href=\"https://open.spotify.com/artist/3L21ifeFAXwNN2ui6NyG0k?si=hZVezeKcRT6B3z6yx6Hikw\"> Inkabi Zezwe </a> ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWYs2pvwxWA7l"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWYs2pvwxWA7l",
+        "id": "37i9dQZF1DWYs2pvwxWA7l",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003d5ed93354bd19faa406213b2",
+            "width": null
+          }
+        ],
+        "name": "Afropop",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4Mzg0NjAwMCwwMDAwMDAwMGQ2OGQzOGQ4NGRjZjQyNzZmZDc2Njk1NzhkOTljNGQz",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWYs2pvwxWA7l/tracks",
+          "total": 70
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWYs2pvwxWA7l"
+      },
+      {
+        "collaborative": false,
+        "description": "Listen to women at full volume. Cover: <a href=\"https://open.spotify.com/artist/3AaXIAk5OkIRmHnoEP4XmP?si=HUbYJUrcR_WQ4qrvno0l_Q\"> Maandy</a>",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX35vibahyjHG"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX35vibahyjHG",
+        "id": "37i9dQZF1DX35vibahyjHG",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003bda28cd08bf1aa7553864816",
+            "width": null
+          }
+        ],
+        "name": "EQUAL Africa ",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4MzEwOTA3MywwMDAwMDAwMGExNDcxYWZjOTI5ZjJmNmJmNjVmZTI4NDEzNDgxNjZm",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX35vibahyjHG/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX35vibahyjHG"
+      },
+      {
+        "collaborative": false,
+        "description": "Timeless afrobeats tracks curated by Davido ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWT4nLa3WetIs"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWT4nLa3WetIs",
+        "id": "37i9dQZF1DWT4nLa3WetIs",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000030d5d90321bfcf58a5b16a136",
+            "width": null
+          }
+        ],
+        "name": "Timeless Afro ",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY3OTQwMzYwMCwwMDAwMDAwMGU2NjE3ZDA2YjQyOGU1OWU1ZTc2ZTZlNmM1MjgyNjli",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWT4nLa3WetIs/tracks",
+          "total": 40
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWT4nLa3WetIs"
+      },
+      {
+        "collaborative": false,
+        "description": "The biggest Amapiano singles making waves in South Africa and the world. Cover: <a href=\"https://open.spotify.com/artist/6egY1uh8HjHy6TrD0qmQNN?si=4k9MtP1ARD-dYt-6PrSzVw\">Myztro</a>.",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DX5mILnBJLA26"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX5mILnBJLA26",
+        "id": "37i9dQZF1DX5mILnBJLA26",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003ce14c0495f76bf4203658b15",
+            "width": null
+          }
+        ],
+        "name": "AMAPIANO grooves",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4NDE0ODk4MSwwMDAwMDAwMDE0OGI2Y2FkOTY4M2FmZTJkOGFmZGU5ZDk0NTBmMjY1",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DX5mILnBJLA26/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DX5mILnBJLA26"
+      },
+      {
+        "collaborative": false,
+        "description": "Feel-good Afropop from Europe and Africa. Cover: CKay",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWX0o6sD1a6P5"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWX0o6sD1a6P5",
+        "id": "37i9dQZF1DWX0o6sD1a6P5",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003a5903297b66177a8f09d4119",
+            "width": null
+          }
+        ],
+        "name": "Afro Hits",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4NDA2NTI0MSwwMDAwMDAwMDY0Y2QyM2U1NTcxOTAwNWMwMTAzMGQ3YzRhMWEzM2Q1",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWX0o6sD1a6P5/tracks",
+          "total": 49
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWX0o6sD1a6P5"
+      },
+      {
+        "collaborative": false,
+        "description": "The smoothest Afro R&B out right now. Cover:  <a href=\"https://open.spotify.com/artist/3SozjO3Lat463tQICI9LcE?si=PNqcawJ9R52MW3OzMDIGKA\">Tyla</a>  and <a href=\"https://open.spotify.com/artist/3ZpEKRjHaHANcpk10u6Ntq?si=LGGP8temR1KOZGGU00G17Q\">Ayra Starr</a>  ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWU4DdJqbjPl5"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWU4DdJqbjPl5",
+        "id": "37i9dQZF1DWU4DdJqbjPl5",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000037af05c140af1a28e3a696727",
+            "width": null
+          }
+        ],
+        "name": "Tantalizers",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4Mzg0NjAwMCwwMDAwMDAwMGNhODFlZjc0YjUzZDhhNTcwMjg1NWNhMWYyZmZkMWJh",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWU4DdJqbjPl5/tracks",
+          "total": 86
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWU4DdJqbjPl5"
+      },
+      {
+        "collaborative": false,
+        "description": "Definitive African party starters, perfect for any jollof jam or braai! \"Spray\" money to these hits!",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWSjibQnF0bUk"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWSjibQnF0bUk",
+        "id": "37i9dQZF1DWSjibQnF0bUk",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f00000003aea0eab3050e6c79c697a71a",
+            "width": null
+          }
+        ],
+        "name": "Afro Party Anthems",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4Mzg0NjAwMCwwMDAwMDAwMGEyYjZiMmEzYTlkMTc3N2ZiNDk0ZWQzMzEyMmMzYTRh",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWSjibQnF0bUk/tracks",
+          "total": 60
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWSjibQnF0bUk"
+      },
+      {
+        "collaborative": false,
+        "description": "The tracks heating up the continent right now!  Cover: <a href=\"https://open.spotify.com/artist/4wAqlYtTaaHELEgyCh9KjG?si=nuiwNZ1UQyuKlfAtVEZQWg\"> Fave</a>  ",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/playlist/37i9dQZF1DWYkaDif7Ztbp"
+        },
+        "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWYkaDif7Ztbp",
+        "id": "37i9dQZF1DWYkaDif7Ztbp",
+        "images": [
+          {
+            "height": null,
+            "url": "https://i.scdn.co/image/ab67706f000000036aae3fa12b83370cf26277dc",
+            "width": null
+          }
+        ],
+        "name": "African Heat",
+        "owner": {
+          "display_name": "Spotify",
+          "external_urls": {
+            "spotify": "https://open.spotify.com/user/spotify"
+          },
+          "href": "https://api.spotify.com/v1/users/spotify",
+          "id": "spotify",
+          "type": "user",
+          "uri": "spotify:user:spotify"
+        },
+        "primary_color": null,
+        "public": null,
+        "snapshot_id": "MTY4NDE0NDY1OSwwMDAwMDAwMDEwNTYzMTMyZTY3MjNlZDQwYWMyMmM4Y2Y2MzljODFl",
+        "tracks": {
+          "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWYkaDif7Ztbp/tracks",
+          "total": 50
+        },
+        "type": "playlist",
+        "uri": "spotify:playlist:37i9dQZF1DWYkaDif7Ztbp"
+      }
+    ],
+    "limit": 20,
+    "next": "https://palota-jobs-africa-spotify-fa.azurewebsites.net:80/api/browse/categories/afro/playlists?limit=20&offset=20",
+    "offset": 0,
+    "previous": "https://palota-jobs-africa-spotify-fa.azurewebsites.net:80/api/browse/categories/afro/playlists?limit=20&offset=0",
+    "total": 131
+  }
+}

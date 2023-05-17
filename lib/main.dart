@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import 'providers/category_loader.dart';
 import 'providers/playlist_loader.dart';
+import 'providers/playlist_song_loader.dart';
 
 void main() {
   runApp(const PalotaAssessmentApp());
@@ -19,6 +20,7 @@ class PalotaAssessmentApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (context) => CategoryLoader()),
         ChangeNotifierProvider(create: (context) => PlayListLoader()),
+        ChangeNotifierProvider(create: (context) => PlaylistSongLoader()),
       ],
       child: MaterialApp(
         title: 'Palota Spotify Africa Assessment',

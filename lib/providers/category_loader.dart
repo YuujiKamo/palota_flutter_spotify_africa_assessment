@@ -7,6 +7,11 @@ import 'package:http/http.dart';
 class CategoryLoader with ChangeNotifier {
   Category? category;
 
+  bool _isError = false;
+
+  //Getters
+  bool get isError => _isError;
+
   Future<void> getCategoryData(String categoryName) async {
     print("Method Running: getCategoryData");
     await get(
@@ -27,9 +32,12 @@ class CategoryLoader with ChangeNotifier {
           //Instantiate Category Object
           category = Category.fromJson(mapCategoryData);
         }
+        _isError = false;
       },
     ).onError(
       (error, stackTrace) {
+        //TODO: Present Errors to user
+        _isError = true;
         print("error: getCategoryData");
         print(error.toString());
       },
